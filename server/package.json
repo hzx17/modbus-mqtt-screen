@@ -1,0 +1,31 @@
+{
+  "name": "ajax_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mqtt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@escook/express-joi": "^1.1.1",
+    "aedes": "^0.48.1",
+    "axios": "^0.20.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-jwt": "^5.3.3",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "modbus-serial": "^8.0.9",
+    "moment": "^2.29.4",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.3.7",
+    "mysql": "^2.18.1",
+    "serialport": "^9.2.8",
+    "typedarray-to-buffer": "^4.0.0"
+  }
+}
